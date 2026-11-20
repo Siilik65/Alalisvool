@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 590" role="img" aria-labelledby="title desc">
+  <title id="title">Elektromotoorjõud ja pingelang vooluallika sisetakistusel</title>
+  <desc id="desc">Jadaühenduses on vasakul vooluallikas ja paremal sisetakistus. Punane pingejoon tõuseb vooluallikal elektromotoorjõu ε võrra ja langeb sisetakistusel ΔU võrra. Klemmipinge on Uₖₗₑₘₘ = ε − ΔU.</desc>
+  <rect width="1000" height="590" fill="#fff"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 225 C144 222 221 228 300 225 L301 101 C360 98 455 103 570 100 L758 225 C812 222 870 228 920 225" stroke="#d6463b" stroke-width="8"/>
+    <path d="M298 231 L304 219 M568 106 L576 95 M752 218 L764 231" stroke="#d6463b" stroke-width="3"/>
+    <path d="M82 410 C145 408 218 412 300 410 M340 410 C433 408 519 412 620 410 M760 410 C813 408 867 412 920 410" stroke="#222" stroke-width="7"/>
+    <path d="M299 372 L299 448 M341 355 L341 465" stroke="#222" stroke-width="8"/>
+    <path d="M620 391 C661 390 716 392 760 391 L760 429 C713 430 666 428 620 429 Z" stroke="#222" stroke-width="7"/>
+    <path d="M620 391 L625 395 M755 391 L760 397 M620 429 L626 425 M754 428 L760 423" stroke="#222" stroke-width="2.5"/>
+    <circle cx="82" cy="410" r="9" fill="#fff" stroke="#222" stroke-width="5"/>
+    <circle cx="920" cy="410" r="9" fill="#fff" stroke="#222" stroke-width="5"/>
+  </g>
+  <g font-family="Comic Sans MS, Chalkboard, cursive" font-weight="700">
+    <text x="190" y="204" text-anchor="middle" font-size="31" fill="#155b8a">Uₖₗₑₘₘ</text>
+    <text x="190" y="246" text-anchor="middle" font-size="20" fill="#222">klemmipinge</text>
+    <text x="435" y="79" text-anchor="middle" font-size="35" fill="#155b8a">ε (max pinge)</text>
+    <text x="662" y="158" text-anchor="middle" font-size="33" fill="#155b8a">ΔU</text>
+    <text x="846" y="204" text-anchor="middle" font-size="31" fill="#155b8a">Uₖₗₑₘₘ</text>
+    <text x="846" y="246" text-anchor="middle" font-size="20" fill="#222">klemmipinge</text>
+    <text x="320" y="337" text-anchor="middle" font-size="34" fill="#155b8a">ε</text>
+    <text x="690" y="355" text-anchor="middle" font-size="30" fill="#155b8a">ΔU</text>
+    <text x="690" y="381" text-anchor="middle" font-size="18" fill="#222">pingelang</text>
+    <text x="690" y="417" text-anchor="middle" font-size="30" fill="#155b8a">r</text>
+    <text x="293" y="490" text-anchor="middle" font-size="22" fill="#222">−</text>
+    <text x="347" y="490" text-anchor="middle" font-size="22" fill="#222">+</text>
+    <text x="500" y="540" text-anchor="middle" font-size="27" fill="#222">Uₖₗₑₘₘ = ε − ΔU</text>
+  </g>
+</svg>
