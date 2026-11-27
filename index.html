@@ -73,7 +73,12 @@ main{padding:18px 0 64px}.module-section,.exercise,.side-card,.guide{background:
  .simulation-main-layout.has-experiment-mode .sim-chart-table input{height:31px;padding:3px 4px;font-size:.8rem}
 }
 @media(max-width:650px){.simulation-main-layout.has-experiment-mode .sim-chart-content.has-experiment-panel{grid-template-columns:1fr}}
-</style></head><body>
+</style><style>
+.language-switch{position:fixed;top:14px;right:clamp(12px,2vw,28px);z-index:1000;display:flex;gap:2px;padding:4px;background:#101b32f0;border:1px solid #ffffff55;border-radius:999px;box-shadow:0 6px 18px rgba(16,27,50,.25)}
+.language-switch a{min-width:42px;padding:6px 9px;border-radius:999px;color:#edf2fa;text-align:center;font-size:.82rem;font-weight:850;line-height:1.2}
+.language-switch a[aria-current=page]{background:var(--lime);color:var(--navy)}
+.language-switch a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+</style></head><body><nav class="language-switch" aria-label="Keelevalik"><a href="index.html" lang="et" aria-current="page">Est</a><a href="en.html" lang="en">Eng</a></nav>
 <header><section class="hero" id="algus"><div class="wrap hero-grid"><div><div class="hero-meta"><span class="eyebrow">Füüsika · 11. klass</span><span class="hero-author">Anton Leppik</span></div><h1>Alalisvool. Vooluallika sisetakistus. Ohmi seadus kogu vooluringi kohta.</h1><p>Korda Alalisvoolu kontrolltööks</p></div></div></section></header>
 <main class="wrap">
   <section class="figure-gallery" aria-label="Alalisvoolu joonised"><figure><img src="alalisvool-valemiskeem.png" alt="Joonis Ohmi seadusest tarbijal ja kogu vooluringis, vooluallika sisetakistusest ning klemmipinge seosest."></figure><figure><img src="alalisvool-vooluring.png" alt="Vooluringi skeem ampermeetri, voltmeetri, tarbija takistuse ning vooluallika sisetakistusega."></figure></section>
